@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device - width, initial-scale=1.0">
+    <title>SLAY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/halou.png"></a>
+            <div class = "nav-links" id="navlinks">
+                <i class="fa fa-times" onclick = "hideMenu()"></i>
+                <ul>
+                    <li><a href = "">GASLIGHT</a></li>
+                    <li><a href = "">GATEKEEP</a></li>
+                    <li><a href = "">GIRLBOSS</a></li>
+                    <li><a href = "">MANSPLAIN</a></li>
+                    <li><a href = "">ABUSE</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>About Us</h1>
+    </section>
+<!---- about us content ---->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-cal">
+                <h1>Blah blah blah</h1>
+                <p>
+                    I don't even really understand what I am doing. I thought that was it, like we did not need to anything else
+                    after the first video, but here we are.
+                </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/cakes.png">
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h1>About Us</h1>
+        <p>Links to my socials: </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+    <script>
+
+        var navLinks = document.getElementById("navlinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+</body>
+</html>
